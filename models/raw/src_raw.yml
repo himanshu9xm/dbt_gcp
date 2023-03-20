@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: raw
+    database: dbt-tutorial-project-380005
+    dataset: raw
+    tables:
+      - name: bengaluru
+      - name: bombay
+      - name: delhi
+      - name: hyderabad
+      - name: jaipur
+      - name: kanpur
+      - name: nagpur
+      - name: pune
