@@ -36,4 +36,4 @@ with
 
 select distinct *
 from final
-order by visibility ASC, date_time DESC, city ASC
+order by visibility asc, date_time desc, city asc
