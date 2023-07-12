@@ -37,3 +37,4 @@ with
 select distinct *
 from final
 order by visibility asc, date_time desc, city asc
+LIMIT 10

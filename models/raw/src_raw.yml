@@ -6,6 +6,13 @@ sources:
     dataset: raw
     tables:
       - name: bengaluru
+        description: "Contains weather details for Bengaluru"
+
+        columns:
+          - name: moonrise
+            description: "Tells time of moon rise"
+            tests:
+              - not_null
       - name: bombay
       - name: delhi
       - name: hyderabad
